@@ -15,6 +15,7 @@ export default function RootLayout({ children }) {
         navbar
         {children}
         footer
+  
         </body>
     </html>
   );

@@ -5,8 +5,8 @@ export default function Home() {
 
   return (
     <main>
-    
-    <Loading/> 
+    home
+    <Loading/>    
     </main>
   );
 }
