@@ -1,9 +1,9 @@
 import React from 'react'
 
-const loading = () => {
+const loading = (props) => {
   return (
     <div>
-      <p>Loading...</p>    
+      <p>Loading...{props.userid} {props.id} {props.title}</p>    
     </div>
   )
 }
