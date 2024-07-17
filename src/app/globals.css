@@ -3,12 +3,14 @@
 @tailwind utilities;
 
 body{
+  background-image: url("../app/images/pexels-photo-1205651.jpeg");
   background-color: purple;
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bolder;
   align-items: center;
   align-content: center;
-  display: flex;
-  flex-direction: column-reverse;
+  display: inline-flex;
+  flex-direction: column;
+  margin-left: 47%;
 }

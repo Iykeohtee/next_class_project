@@ -1,9 +1,9 @@
 import React from 'react';
 
-const loading = () => {
+const loading = ({na}) => {
   return (
     <div> 
-      <p>loading...</p> 
+      <p>loading...{na}</p> 
     </div>
   )
 }
