@@ -1,12 +1,12 @@
 import React from 'react'
-// import styles from './about.css'
+// import styles from './dashboard.css'
 
 function page() {
   return (
     <div className= 'just'>
-      About
+      Contact
     </div>
   )
 }
 
-export default page
+export default page 

@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-const Loading = () => {
+const Loading =  props  => {
   return (
     <div>
-      <p>Loading...</p>
+      <p>Loading...{props.na} {props.pay}</p>
     </div>
   )
 }
