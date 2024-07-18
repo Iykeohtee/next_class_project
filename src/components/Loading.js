@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Loading = ({res}) => {
+const Loading = ({props, res}) => {
   return (
     <div>
       <p>Loading..</p>
