@@ -4,11 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 
 const Navbar = () => {
-
-  const [isClick, setisClick] = useState(false);
-  const toggleNavbar = () => {
-    setisClick(isClick);
-  };
   
   return (
       <nav className="bg-white drop-shadow-2xl">
