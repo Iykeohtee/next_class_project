@@ -1,11 +1,11 @@
-import Image from "next/image";
-import Loading from "@/component/Loading";
+import React from 'react'
 
-export default function Home() {
+const page = () => {
   return (
-    <main>
-      Home
-      <Loading/>
-    </main>
-  );
+    <div>
+      
+    </div>
+  )
 }
+
+export default page
