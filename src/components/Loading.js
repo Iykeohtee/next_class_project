@@ -1,8 +1,11 @@
 import React from 'react'
 
-const Loading = (ftgit) => {
+const Loading = () => {
   return (
     <div>
-      <p>Loading...{ft}</p>
+      <p>Loading..</p>
     </div>
+  )
+}
+
 export default Loading
