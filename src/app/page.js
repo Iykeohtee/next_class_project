@@ -13,13 +13,11 @@ export default function Home() {
   // }
 
   // getData();   
-    
-
 
   return (
+    <main>
     
-    <div>      
-        
-    </div>
+    <Loading/> 
+    </main>   
   );
-}
+}   
