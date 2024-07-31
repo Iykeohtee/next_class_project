@@ -3,6 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Search from "@/components/Search";
 
 const Navbar = () => {
   return (
@@ -13,22 +14,16 @@ const Navbar = () => {
             <Image src="/logo.png" width={60} height={60} />
           </Link>
         </div>
+        
         <div className="flex font-medium text-black">
-          <Link href="/about" className="px-2 hover:text-indigo-800">
-            About
-          </Link>
-          <br />
-          <Link href="/contact" className="px-2 hover:text-indigo-800">
-            Contact
-          </Link>
-          <br />
-          <Link href="/dashboard" className="px-2 hover:text-indigo-800">
-            Dashboard
-          </Link>
-          <br />
-          <Link href="/portfolio" className="px-2 hover:text-indigo-800">
-            Portfolio
-          </Link>
+            <Search/> 
+          <Link href="/about" className="px-2 hover:text-indigo-800">About</Link>
+          <Link href="/contact" className="px-2 hover:text-indigo-800">Contact</Link>
+          
+          <Link href="/dashboard" className="px-2 hover:text-indigo-800">Dashboard</Link>
+         
+          <Link href="/portfolio" className="px-2 hover:text-indigo-800"> Portfolio</Link>
+          
           {/* <ul className="flex gap-3">
             <li>About</li>
             <li>Contact</li>

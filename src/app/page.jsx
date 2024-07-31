@@ -5,6 +5,7 @@ import Loading from "@/components/Loading";
 //import {useState} from "react"
 
 const Home = () => {
+
   //  // function increment(count){
   //   //   console.log(count);
   //   // }
@@ -37,6 +38,7 @@ const Home = () => {
       <h2>
         <Loading />
         never
+        
       </h2>
     </div>
   );
@@ -111,3 +113,5 @@ export default Home;
 //     </div>
 //   );
 // }
+
+

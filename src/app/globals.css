@@ -11,3 +11,18 @@
   align-items: center;
   box-sizing: border-box; */
 /* } */
+
+body{
+  
+}
+
+
+.light{
+  background-color: white;
+  color: black;
+}
+
+.dark{
+  background-color: black;
+  color: white;
+}
