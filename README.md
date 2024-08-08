@@ -34,3 +34,17 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+
+I updated the project with the useRouter() which we did in the last class. so check the /contact/page.js file to check the examples on useRouter
+
+I also updated the project with usePathName(). check the page.js file (your home page file) which is inside the app folder to see the example on usePathName.
+
+I also updated the project with useParams(). Notice the folder in posts folder which is in the app folder. 
+In the posts folder I have a dynamic folder [id] and inside the dynamic folder I have a page.js file. Go through the file to see examples on useParams and I also added useSearchParams, a hook mostly used alongside useParams.
+
+Endeavour to calm down and go through these topics then if you can questions you can ask me in my DM 
+
+!Happy coding...

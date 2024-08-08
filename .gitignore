@@ -37,3 +37,7 @@ next-env.d.ts
 
 # Custom
 note.js
+FileUpload.js  
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
