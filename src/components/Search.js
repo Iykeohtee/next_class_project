@@ -1,6 +1,6 @@
 "use client"
 
-import React, {useState, useEffect} from 'react'; 
+import React, {useState, useEffect, useRef} from 'react'; 
 import Loading from './Loading';
 
 const Search = () => { 
@@ -8,7 +8,7 @@ const Search = () => {
     const [ query, setQuery ] = useState('')
     const [result, setResult ] = useState([])
     const [ loading, setLoading ] = useState(false)
-     
+        
    useEffect(() => {
 
       if(query.length === 0 ) {
